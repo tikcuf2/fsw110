@@ -1,5 +1,5 @@
 for (var i = 0; i < 5 ; i++){
-    var al = document.createElement("h1");
+    var al = document.createElement("h2");
 
     al.textContent = "HelloWorld"; 
     al.style.fontSize = "20px";
