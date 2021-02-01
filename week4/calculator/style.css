@@ -1,9 +1,42 @@
 *{
     background-color: coral;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
 }
 
 .calc{
     width: 100px;
     height: 100px;
     object-fit: contain;
+}
+
+
+button{
+    background-color: rgb(82, 108, 114);
+    border-color:black; 
+    width: 30px;
+    height: 30px;   
+    text-align: center;
+    
+}
+
+#input{
+    
+    background-color: rgb(114, 140, 144);
+
+    border: solid;
+    border-color: black;
+
+}
+
+#display{
+   
+   
+    
+    background-color:rgb(70, 67, 67);
+    max-width: 450px;
+    text-align: right;
+    color: white;
+
 }
