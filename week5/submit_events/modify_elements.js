@@ -19,16 +19,17 @@ var title = document.getElementById('title');
     }
     
     const form = document.form;
-    
-    form.addEventListener("click", (event) => {
-        event.preventDefault()
-        alert
-        (`
-            Your Shirt Size is : ${form.Shirt.value}
-            Your Pant Size is : ${form.pants.value}
-            Your Shoe Size is : ${form.Shoe.value}`);
-       
+form.addEventListener("submit", (event) => {
+    event.preventDefault()
+    alert
+    (`
+    Shirt Size: ${form.Shirt.value} 
+    Shoe Size: ${form.Shoes.value}
+    Pant Size: ${form.Pants.value}
+   `);
     })
+       
+ 
 
 
     
